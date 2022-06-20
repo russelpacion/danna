@@ -1,6 +1,4 @@
-
 html{
-    
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
@@ -16,28 +14,24 @@ h1{
     height: 100vh;
     display: flex;
     justify-content: center;
-    
 }
 .buttongroup{
-    margin-top: 180px;
+    margin-top: 250px;
 
 }
 button{
     position:absolute;
-    display:inline-flex;
+    display: flex;
     cursor: pointer;
-    margin: 0px 20px;
+    margin: 0px 40px;
     padding: 10px 30px;
     background-color: white;
-    
+    border: none;
 }
 .button--no{
-    
     left: 50%;
-    
 }
-.button--yes{
-    
-    right:50%;
-    
+#button--yes{
+    right: 50%;
+
 }
